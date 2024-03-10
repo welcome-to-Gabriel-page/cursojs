@@ -1,5 +1,5 @@
 /* ler propriedades dentro de um objeto 
-criar um método para ler propriedades de um objeto e exibir somente as propriedades do tipo string que estão nesse onjeto */
+criar um método para ler propriedades de um objeto e exibir somente as propriedades do tipo string que estão nesse objeto */
 const filme = {
     titulo: 'Segurando as pontas',
     ano: 2014,
@@ -9,6 +9,6 @@ const filme = {
 let = exibirPropriedades(filme);
 function exibirPropriedades(obj) {
     for (prop in obj)
-        if (typeof obj[prop] === 'number')
+        if (typeof obj[prop] === 'string')
             console.log(prop, obj[prop])
 }

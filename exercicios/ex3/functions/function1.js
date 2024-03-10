@@ -1,5 +1,5 @@
 
-let = verificarVelocidade(70);
+let = verificarVelocidade(120);
 
 function verificarVelocidade(velocidade) {
     const velocidadeMaxima = 70;
